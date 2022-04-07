@@ -12,8 +12,6 @@ public class pipScript : MonoBehaviour
     //this is like the speed (frececy of the wave)
     public float bobFrequency;
 
-    private float offSetY;
-
     // the orginal positioin of the vector that the math is relative to.
     private Vector3 initPos;
 
@@ -23,15 +21,11 @@ public class pipScript : MonoBehaviour
     // init the spriteRender componet variable so we can change the color of the pip
     private SpriteRenderer m_spriteRenderer;
 
-    private void Awake()
-    {
-        offSetY = Random.Range(-1, 1);
-    }
 
     private void Start()
     {
         
-        initPos = new Vector3(transform.position.x, transform.position.y + offSetY, transform.position.z);
+        initPos = transform.position;
 
         // get the sprite render, then color the sprite either white or black.
         SpriteRenderer m_spriteRenderer = GetComponent<SpriteRenderer>();

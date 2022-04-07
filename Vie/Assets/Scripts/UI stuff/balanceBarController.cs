@@ -18,5 +18,9 @@ public class balanceBarController : MonoBehaviour
         {
             slider.value += sliderSpeed;
         }
+        else if (slider.value > darknessValue)
+        {
+            slider.value -= sliderSpeed;
+        }
     }
 }

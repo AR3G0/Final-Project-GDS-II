@@ -12,15 +12,38 @@ public class pipScript : MonoBehaviour
     //this is like the speed (frececy of the wave)
     public float bobFrequency;
 
+    private float offSetY;
+
     // the orginal positioin of the vector that the math is relative to.
-    Vector3 initPos;
+    private Vector3 initPos;
 
     // get the balance bar so we can modify it
     public GameObject balanceBar;
 
+    // init the spriteRender componet variable so we can change the color of the pip
+    private SpriteRenderer m_spriteRenderer;
+
+    private void Awake()
+    {
+        offSetY = Random.Range(-1, 1);
+    }
+
     private void Start()
     {
-        initPos = transform.position;  
+        
+        initPos = new Vector3(transform.position.x, transform.position.y + offSetY, transform.position.z);
+
+        // get the sprite render, then color the sprite either white or black.
+        SpriteRenderer m_spriteRenderer = GetComponent<SpriteRenderer>();
+        ParticleSystem m_particles = GetComponent<ParticleSystem>();
+        if (isPipDark == false)
+        {
+            m_spriteRenderer.color = new Color(1, 1, 1, 1);
+        }
+        else
+        {
+            m_spriteRenderer.color = new Color(0,0,0, 1);
+        }
     }
 
     private void Update()
@@ -42,7 +65,7 @@ public class pipScript : MonoBehaviour
             {
                 script.darknessValue += 10f;
             }
-            else
+            else if (isPipDark == false)
             {
                 script.darknessValue -= 10f;
             }

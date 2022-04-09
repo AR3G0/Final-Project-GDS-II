@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class vineWallGrowth : MonoBehaviour
 {
-    public float growth = 100f;
+    public float growth = 1f;
 
     public GameObject wall;
     public GameObject vine1;
@@ -18,7 +18,7 @@ public class vineWallGrowth : MonoBehaviour
         {
             Debug.Log("Trigger");
 
-            growth -= 0.125f;
+            growth -= 0.0125f;
         }
     }
 }

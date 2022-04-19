@@ -7,6 +7,9 @@ public class playerMovement : MonoBehaviour
     // get the controller script so we can tell it to do stuff later
     public CharacterController2D controller;
 
+    // get the animator to change animations when needed
+    public Animator animator;
+
     public float runSpeed = 40f;
 
     float horizontalMove = 0f;
@@ -26,6 +29,9 @@ public class playerMovement : MonoBehaviour
         {
             jump = true;
         }
+
+        // references the parameter set in the animator and sets it to the horizontal move
+        animator.SetFloat("PSpeed", Mathf.Abs(horizontalMove));
     }
 
     // apply input from player to character

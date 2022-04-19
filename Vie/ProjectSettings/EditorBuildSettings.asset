@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Forest.unity
     guid: d2203e6d677aa8e4091073ecbadb55eb
+  - enabled: 1
+    path: Assets/Levels/Menu2.unity
+    guid: e97e300ef1ca03f48aaebac651d23838
   m_configObjects: {}

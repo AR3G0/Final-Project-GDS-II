@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f507d61d864774b439f6f0c0fe584bd3
+guid: 046ee7e1aa345a44a96374c96853c43a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,211 +104,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vie_Idle_Sprite_Sheet_0
+      name: Vie_Idle_Sprite_Sheet_256_2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1555.7
-        height: 2724
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 7
+        width: 143
+        height: 249
+      alignment: 9
+      pivot: {x: 0.58282954, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a641773f33dcf84aa2dcef7ea10b927
-      internalID: 21267560
+      spriteID: 0edb00a8dfd13a843b6df1db5922caca
+      internalID: 163749335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vie_Idle_Sprite_Sheet_1
+      name: Vie_Idle_Sprite_Sheet_256_2_1
       rect:
         serializedVersion: 2
-        x: 1555
-        y: 0
-        width: 1555.7
-        height: 2724
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 148
+        y: 7
+        width: 148
+        height: 249
+      alignment: 9
+      pivot: {x: 0.52507895, y: 0.50000006}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c32630fbe3a43654d8ad54e0b434e428
-      internalID: 1167308176
+      spriteID: a6e369fd30b049c459f9aded0c631ca8
+      internalID: -1754400168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vie_Idle_Sprite_Sheet_2
+      name: Vie_Idle_Sprite_Sheet_256_2_2
       rect:
         serializedVersion: 2
-        x: 3110
-        y: 0
-        width: 1555.7
-        height: 2724
+        x: 297
+        y: 7
+        width: 155
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b1913f38ef30f349bd7b9dcf6674b84
-      internalID: -1461898359
+      spriteID: 1834df2953995284dbd86e2e929df026
+      internalID: 1907112072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vie_Idle_Sprite_Sheet_3
+      name: Vie_Idle_Sprite_Sheet_256_2_3
       rect:
         serializedVersion: 2
-        x: 4665
-        y: 0
-        width: 1555.7
-        height: 2724
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 447
+        y: 7
+        width: 145
+        height: 249
+      alignment: 9
+      pivot: {x: 0.522397, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1ee3a76810cf5c41a34b145568c3818
-      internalID: -481545805
+      spriteID: 3f856789ccfaa5944a73a4fd5bcfcf65
+      internalID: -1925189366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vie_Idle_Sprite_Sheet_4
+      name: Vie_Idle_Sprite_Sheet_256_2_4
       rect:
         serializedVersion: 2
-        x: 6220
-        y: 0
-        width: 1555.7
-        height: 2724
+        x: 591
+        y: 7
+        width: 144
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58feab832f4cf194ab55d3c363e43a14
-      internalID: 1740731135
+      spriteID: 64b4349a46f0c1f4a839f1dc47b99ae5
+      internalID: -1228930756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vie_Idle_Sprite_Sheet_5
+      name: Vie_Idle_Sprite_Sheet_256_2_5
       rect:
         serializedVersion: 2
-        x: 7775
-        y: 0
-        width: 1555.7
-        height: 2724
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 740
+        y: 7
+        width: 141
+        height: 249
+      alignment: 9
+      pivot: {x: 0.4616132, y: 0.49130517}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d03e3b2f8de4100449bff5e356f0bdf7
-      internalID: 1342855152
+      spriteID: 0ec6d9be177506f49ad1bfdfbf228d5a
+      internalID: -339544161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vie_Idle_Sprite_Sheet_6
+      name: Vie_Idle_Sprite_Sheet_256_2_6
       rect:
         serializedVersion: 2
-        x: 9330
-        y: 0
-        width: 1555.7
-        height: 2724
+        x: 882
+        y: 7
+        width: 140
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c13f3770cc487fa4b9f41acfe3eb3abe
-      internalID: -1089197887
+      spriteID: 2b196d5e4d1324644a6c245fb2ab8a45
+      internalID: 1238310481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vie_Idle_Sprite_Sheet_7
+      name: Vie_Idle_Sprite_Sheet_256_2_7
       rect:
         serializedVersion: 2
-        x: 10885
-        y: 0
-        width: 1555.7
-        height: 2724
+        x: 1028
+        y: 7
+        width: 146
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57bbce3124331f0498cf3898b5af5a76
-      internalID: -1607161507
+      spriteID: fc6c4ad49539fec449059c4f0a599123
+      internalID: 1827852782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vie_Idle_Sprite_Sheet_8
+      name: Vie_Idle_Sprite_Sheet_256_2_8
       rect:
         serializedVersion: 2
-        x: 12440
-        y: 0
-        width: 1555.7
-        height: 2724
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1177
+        y: 7
+        width: 138
+        height: 249
+      alignment: 9
+      pivot: {x: 0.52353305, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bedcf571091bfc649bbe04aad86f8a2b
-      internalID: -267424817
+      spriteID: 4c36631939a01ae4982f1c58c8759334
+      internalID: -402553594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vie_Idle_Sprite_Sheet_9
+      name: Vie_Idle_Sprite_Sheet_256_2_9
       rect:
         serializedVersion: 2
-        x: 13995
-        y: 0
-        width: 1555.7
-        height: 2724
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1315
+        y: 7
+        width: 147
+        height: 249
+      alignment: 9
+      pivot: {x: 0.5575657, y: 0.49999994}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b7e139fc4764fd46a5048a39cd3e31f
-      internalID: 708926451
+      spriteID: 7d3936495b069144ebfe421cfcfecf4a
+      internalID: 261687383
       vertices: []
       indices: 
       edges: []
@@ -324,16 +324,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Vie_Idle_Sprite_Sheet_4: 1740731135
-      Vie_Idle_Sprite_Sheet_3: -481545805
-      Vie_Idle_Sprite_Sheet_7: -1607161507
-      Vie_Idle_Sprite_Sheet_2: -1461898359
-      Vie_Idle_Sprite_Sheet_1: 1167308176
-      Vie_Idle_Sprite_Sheet_0: 21267560
-      Vie_Idle_Sprite_Sheet_9: 708926451
-      Vie_Idle_Sprite_Sheet_8: -267424817
-      Vie_Idle_Sprite_Sheet_5: 1342855152
-      Vie_Idle_Sprite_Sheet_6: -1089197887
+      Vie_Idle_Sprite_Sheet_256_2_7: 1827852782
+      Vie_Idle_Sprite_Sheet_256_2_5: -339544161
+      Vie_Idle_Sprite_Sheet_256_2_1: -1754400168
+      Vie_Idle_Sprite_Sheet_256_2_3: -1925189366
+      Vie_Idle_Sprite_Sheet_256_2_2: 1907112072
+      Vie_Idle_Sprite_Sheet_256_2_6: 1238310481
+      Vie_Idle_Sprite_Sheet_256_2_9: 261687383
+      Vie_Idle_Sprite_Sheet_256_2_8: -402553594
+      Vie_Idle_Sprite_Sheet_256_2_0: 163749335
+      Vie_Idle_Sprite_Sheet_256_2_4: -1228930756
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 public class nextlevel : MonoBehaviour
 {
 
+    public string levelToGoTo;
+
     // when the player collides with this box, trigger the next level
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("Forest", LoadSceneMode.Single);
+            SceneManager.LoadScene(levelToGoTo, LoadSceneMode.Single);
         }
     }
 }

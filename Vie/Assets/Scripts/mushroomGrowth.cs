@@ -39,7 +39,7 @@ public class mushroomGrowth : MonoBehaviour
     }
 
 
-    private void Update()
+    private void FixedUpdate()
     {
 
         if (playerLookingAt == true)

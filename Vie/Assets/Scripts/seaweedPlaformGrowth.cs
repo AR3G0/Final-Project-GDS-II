@@ -43,7 +43,7 @@ public class seaweedPlaformGrowth : MonoBehaviour
     }
 
 
-    private void Update()
+    private void FixedUpdate()
     {
         // while the player is looking at the vines, grow or wither them
         if (playerLookingAt == true)

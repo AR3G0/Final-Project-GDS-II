@@ -38,6 +38,10 @@ public class pipScript : MonoBehaviour
         {
             m_spriteRenderer.color = new Color(0,0,0, 1);
         }
+
+        if (isPipDark == true) m_particles.startColor = new Color(0, 0, 0, 1);
+        else m_particles.startColor = new Color(1, 1, 1, 1);
+
     }
 
     private void Update()

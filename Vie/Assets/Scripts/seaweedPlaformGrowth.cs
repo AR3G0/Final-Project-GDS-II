@@ -7,7 +7,9 @@ public class seaweedPlaformGrowth : MonoBehaviour
 {
     // growth needs to be between 1 and 0
     public float growth = 1f;
-    public float speed = 0.0125f;
+    public float maxSpeed = 0.0125f;
+    public float speed = 0f;
+    public float acc = 0.125f;
 
     // link all the vine objects we will move later
     public GameObject seaweed;
@@ -57,6 +59,10 @@ public class seaweedPlaformGrowth : MonoBehaviour
             {
                 if (growth > 0.2f)
                 {
+                    //decelerat
+                    if (speed > 0) speed -= acc * 2;
+                    else speed = 0;
+
                     // slowly wither the plants
                     growth -= speed;
 
@@ -74,6 +80,10 @@ public class seaweedPlaformGrowth : MonoBehaviour
                 // cap the growth at 1
                 if (growth < 1)
                 {
+                    //acceleart up to speed
+                    if (speed < maxSpeed) speed += acc;
+                    else speed = maxSpeed;
+
                     // slowly grow the plants
                     growth += speed;
 
@@ -99,6 +109,7 @@ public class seaweedPlaformGrowth : MonoBehaviour
                     // we only care about values that are greater then .2 and smaller then 1.
                     if (counterGrowth > 0.2f)
                     {
+                        speed = 0.05f;
                         counterGrowth -= speed;    
 
                         //lower the platform

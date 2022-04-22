@@ -9,7 +9,6 @@ public class coneParticleDirection : MonoBehaviour
     public GameObject lightCone;
     private Transform targetTransform;
 
-    private bool isOn = false;
     private bool isDarkPart;
 
     private lightModeSwitch lightmode;
@@ -19,7 +18,6 @@ public class coneParticleDirection : MonoBehaviour
     private void Awake()
     {
         targetTransform = lightCone.GetComponent<Transform>();
-
 
     }
 

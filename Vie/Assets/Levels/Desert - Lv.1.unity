@@ -1566,7 +1566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219677729}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 182.50002, y: -14.240001, z: -10}
+  m_LocalPosition: {x: 178.4, y: -10.9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3133,10 +3133,6 @@ PrefabInstance:
     - target: {fileID: 6298608659110445851, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
       propertyPath: m_Name
       value: vineGrowth
-      objectReference: {fileID: 0}
-    - target: {fileID: 6298608659110445851, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6298608659673546353, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
       propertyPath: m_SortingOrder
@@ -7490,6 +7486,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &969949243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6714586442077004390, guid: 792beb4347c9720469c982ec84c55e00, type: 3}
+  m_PrefabInstance: {fileID: 6714586442834880511}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &972631756
 GameObject:
   m_ObjectHideFlags: 0
@@ -11914,6 +11915,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1464471926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6108660956217542858, guid: 792beb4347c9720469c982ec84c55e00, type: 3}
+  m_PrefabInstance: {fileID: 6714586442834880511}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1464471927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464471926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d18a694dd53f944b987159b9c7da6b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles: {fileID: 969949243}
 --- !u!1 &1465431945
 GameObject:
   m_ObjectHideFlags: 0
@@ -14283,10 +14302,6 @@ PrefabInstance:
     - target: {fileID: 7020483177805715360, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_Name
       value: SeaweedPlatform (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020483177805715360, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7020483177805715361, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: growth
@@ -17450,10 +17465,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: big mushroom
       objectReference: {fileID: 0}
-    - target: {fileID: 1760638357972928630, guid: 2e5a64ea6446a4b4493def993c358cfa, type: 3}
-      propertyPath: m_TagString
-      value: interactable
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e5a64ea6446a4b4493def993c358cfa, type: 3}
 --- !u!1001 &6714586442834880511
@@ -17489,11 +17500,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6108660956327603882, guid: 792beb4347c9720469c982ec84c55e00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 181.6
+      value: 177.49998
       objectReference: {fileID: 0}
     - target: {fileID: 6108660956327603882, guid: 792beb4347c9720469c982ec84c55e00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.8
+      value: -12.459999
       objectReference: {fileID: 0}
     - target: {fileID: 6108660956327603882, guid: 792beb4347c9720469c982ec84c55e00, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17575,14 +17586,6 @@ PrefabInstance:
     - target: {fileID: 7020483177805715360, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_Name
       value: SeaweedPlatform
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020483177805715360, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020483177805715361, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
-      propertyPath: growth
-      value: 0.21
       objectReference: {fileID: 0}
     - target: {fileID: 7020483177805715362, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_RootOrder

@@ -158,10 +158,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64c486d593d81534981ca95404891c1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  growth: 1
-  maxSpeed: 0.5
+  growth: 0.21
+  maxSpeed: 0.005
   speed: 0.0005
-  acc: 0.125
+  acc: 0.000025
   seaweed: {fileID: 7020483178986465915}
   platform: {fileID: 7020483179152600750}
 --- !u!61 &7020483177805715363

@@ -71,6 +71,7 @@ public class seaweedPlaformGrowth : MonoBehaviour
                 }
                 else
                 {
+                    Destroy(gameObject);
                     growth = 0.2f;
                 }
             }
@@ -129,5 +130,6 @@ public class seaweedPlaformGrowth : MonoBehaviour
 
             }
         }
+
     }
 }

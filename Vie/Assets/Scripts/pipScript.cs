@@ -28,7 +28,7 @@ public class pipScript : MonoBehaviour
         initPos = transform.position;
 
         // get the sprite render, then color the sprite either white or black.
-        SpriteRenderer m_spriteRenderer = GetComponent<SpriteRenderer>();
+        m_spriteRenderer = GetComponent<SpriteRenderer>();
         ParticleSystem m_particles = GetComponent<ParticleSystem>();
         if (isPipDark == false)
         {
@@ -39,8 +39,10 @@ public class pipScript : MonoBehaviour
             m_spriteRenderer.color = new Color(0,0,0, 1);
         }
 
-        if (isPipDark == true) m_particles.startColor = new Color(0, 0, 0, 1);
-        else m_particles.startColor = new Color(1, 1, 1, 1);
+        var main = m_particles.main;
+
+        if (isPipDark == true) main.startColor = new Color(0, 0, 0, 1);
+        else main.startColor = new Color(1, 1, 1, 1);
 
     }
 

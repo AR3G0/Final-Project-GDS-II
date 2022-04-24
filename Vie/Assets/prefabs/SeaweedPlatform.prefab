@@ -4943,7 +4943,7 @@ GameObject:
   - component: {fileID: 7020483177805715362}
   - component: {fileID: 7020483177805715361}
   - component: {fileID: 7020483177805715363}
-  - component: {fileID: 3216458749548617372}
+  - component: {fileID: 6735279854649459047}
   m_Layer: 0
   m_Name: SeaweedPlatform
   m_TagString: interactable
@@ -5012,7 +5012,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.55415344, y: 6.4956455}
   m_EdgeRadius: 0
---- !u!114 &3216458749548617372
+--- !u!114 &6735279854649459047
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5025,6 +5025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   part: {fileID: 2100892217368085174}
+  balanceBar: {fileID: 0}
 --- !u!1 &7020483178986465915
 GameObject:
   m_ObjectHideFlags: 0

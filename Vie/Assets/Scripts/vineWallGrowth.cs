@@ -7,7 +7,9 @@ public class vineWallGrowth : MonoBehaviour
 {
     // growth needs to be between 1 and 0
     public float growth = 1f;
-    public float speed = 0.0125f;
+    public float maxSpeed;
+    public float speed;
+    public float acc;
 
     // link all the vine objects we will move later
     public GameObject wall;
@@ -60,6 +62,9 @@ public class vineWallGrowth : MonoBehaviour
             {
                 if (growth > 0.2f)
                 {
+                    if (speed < maxSpeed) speed += acc;
+                    else speed = maxSpeed;
+
                     // slowly wither the plants
                     growth -= speed;
                 }
@@ -74,6 +79,9 @@ public class vineWallGrowth : MonoBehaviour
                 // cap the growth at 1
                 if (growth < 1)
                 {
+                    if (speed < maxSpeed) speed += acc;
+                    else speed = maxSpeed;
+
                     // slowly grow the plants
                     growth += speed;
                 }

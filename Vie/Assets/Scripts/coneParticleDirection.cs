@@ -30,15 +30,16 @@ public class coneParticleDirection : MonoBehaviour
 
         ParticleSystem m_particles = GetComponent<ParticleSystem>();
 
+        var main = m_particles.main;
 
         if (lightmode.isDark == true && isDarkPart == false)
         {
-            m_particles.startColor = new Color(0, 0, 0, 1);
+            main.startColor = new Color(0, 0, 0, 1);
             isDarkPart = true;
         }
         else if (lightmode.isDark == false && isDarkPart == true)
         {
-            m_particles.startColor = new Color(1, 1, 1, 1);
+            main.startColor = new Color(1, 1, 1, 1);
             isDarkPart = false;
         }
 

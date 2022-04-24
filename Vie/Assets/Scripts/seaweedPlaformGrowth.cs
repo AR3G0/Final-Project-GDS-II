@@ -41,7 +41,7 @@ public class seaweedPlaformGrowth : MonoBehaviour
         if (other.gameObject.tag == "lightCone")
         {
             playerLookingAt = false;
-            speed = 0.0005f;
+            speed = 0.0005f; 
         }
     }
 

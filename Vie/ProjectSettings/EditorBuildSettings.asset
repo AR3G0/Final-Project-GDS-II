@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Levels/Menu2.unity
     guid: e97e300ef1ca03f48aaebac651d23838
   - enabled: 1
-    path: Assets/Levels/Climb - Level 3.unity
+    path: Assets/Levels/Climb - Lv 3.unity
     guid: ef78b2ab1086acd459d41daedc55fdc0
   m_configObjects: {}

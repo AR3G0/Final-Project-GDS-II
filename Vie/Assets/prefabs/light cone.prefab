@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 4204815005011466975}
   - component: {fileID: 8879500016723976154}
   - component: {fileID: 3545858496646775053}
-  - component: {fileID: 5130521382056389384}
   - component: {fileID: 814781666152164779}
+  - component: {fileID: 4814869304867141536}
   m_Layer: 3
   m_Name: light cone
   m_TagString: lightCone
@@ -138,32 +138,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!61 &5130521382056389384
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4204815005011466946}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 2.331977, y: -0.32080072}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.013157235, y: 0.58397925}
-    oldSize: {x: 4.79, y: 3.82}
-    newSize: {x: 4.79, y: 3.82}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.79, y: 3.8199997}
-  m_EdgeRadius: 0
 --- !u!114 &814781666152164779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,3 +152,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   balanceBar: {fileID: 0}
   spriteRenderer: {fileID: 4204815005011466944}
+  isDark: 0
+--- !u!60 &4814869304867141536
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4204815005011466946}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.013157235, y: 0.58397925}
+    oldSize: {x: 4.79, y: 3.82}
+    newSize: {x: 4.79, y: 3.82}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 4.1170416, y: 1.4013696}
+      - {x: 1.2878876, y: 0.5705147}
+      - {x: -0.13803363, y: -0.061298788}
+      - {x: 1.5833348, y: -0.9951253}
+      - {x: 4.1104655, y: -1.8189967}
+      - {x: 4.3625956, y: -0.21234041}

@@ -7,7 +7,8 @@ public class lightModeSwitch : MonoBehaviour
 {
     public GameObject balanceBar;
     public SpriteRenderer spriteRenderer;
-    private bool isDark = false;
+
+    public bool isDark = false;
 
     private void Update()
     {

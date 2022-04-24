@@ -24,14 +24,17 @@ public class playerMovement : MonoBehaviour
         // returns -1 || 1 based on player input 
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
+        // references the parameter set in the animator and sets it to the horizontal move
+        animator.SetFloat("PSpeed", Mathf.Abs(horizontalMove));
+
         //check for jump input
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            Debug.Log("jump true");
+            // tells animator to change to jump state to true
+            animator.SetBool("Jump", true);
         }
-
-        // references the parameter set in the animator and sets it to the horizontal move
-        animator.SetFloat("PSpeed", Mathf.Abs(horizontalMove));
     }
 
     // apply input from player to character
@@ -67,5 +70,10 @@ public class playerMovement : MonoBehaviour
             controller.Flip();
         }
 
+    }
+    public void OnLanding()
+    {
+        Debug.Log("jump false");
+        animator.SetBool("Jump", false);
     }
 }

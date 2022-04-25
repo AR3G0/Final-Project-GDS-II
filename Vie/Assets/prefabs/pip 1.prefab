@@ -4932,12 +4932,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9d01eefdf9d344eb8dda7b564fcae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volume: 1
+  triggerRange: 0
   pip: {fileID: 7685065823096535440}
   lightPickUp: {fileID: 8300000, guid: 1acf2a271b3b00141805750ce50905d2, type: 3}
   DarkPickUp: {fileID: 8300000, guid: 520ee1ef8509cc947aeb23daf4780153, type: 3}
   lightAmb: {fileID: 8300000, guid: de82728e87f35c24784445ac3ba3da77, type: 3}
   DarkAmb: {fileID: 8300000, guid: 5d956dc2a89bc19418896f8cec4fd0d8, type: 3}
-  volume: 1
 --- !u!82 &7626810950428591944
 AudioSource:
   m_ObjectHideFlags: 0

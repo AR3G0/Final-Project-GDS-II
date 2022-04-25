@@ -8,12 +8,8 @@ public class checkPoint : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            //get a refernce to the parent object
-           var p = transform.parent;
-
             // make the new checkpoints position equal this transform.
-           checkPointSystem newCheckPoint = p.GetComponent<checkPointSystem>();
-           newCheckPoint.playerCheckPointLocation = collision.transform.position;
+           checkPointSystem.playerCheckPointLocation = collision.transform.position;
 
             //destroy this check point so it cannot be hit twice.
             Destroy(gameObject);

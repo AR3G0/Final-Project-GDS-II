@@ -18,6 +18,11 @@ public class playerMovement : MonoBehaviour
     // used to control the player flipping with the mouse
     public bool facingRight = true;
 
+    private void Awake()
+    {
+        transform.position = checkPointSystem.playerCheckPointLocation;
+    }
+
     // Get input from player
     void Update()
     {

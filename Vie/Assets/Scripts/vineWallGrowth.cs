@@ -70,6 +70,7 @@ public class vineWallGrowth : MonoBehaviour
                 }
                 else
                 {
+                    Destroy(gameObject);
                     growth = 0.2f;
                 }
             }

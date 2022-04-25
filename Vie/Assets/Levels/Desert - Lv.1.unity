@@ -1566,7 +1566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219677729}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 177, y: -12.5, z: -10}
+  m_LocalPosition: {x: 304.2, y: -122.75, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1584,9 +1584,17 @@ PrefabInstance:
       propertyPath: balanceBar
       value: 
       objectReference: {fileID: 1170906059}
+    - target: {fileID: 6735279854649459047, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
+      propertyPath: balanceBar
+      value: 
+      objectReference: {fileID: 1170906059}
     - target: {fileID: 7020483177805715360, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_Name
       value: SeaweedPlatform (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020483177805715361, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
+      propertyPath: growth
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7020483177805715362, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_RootOrder
@@ -3142,6 +3150,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8775763136361459184, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
+      propertyPath: balanceBar
+      value: 
+      objectReference: {fileID: 1170906059}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
 --- !u!4 &496724213 stripped
@@ -8040,9 +8052,17 @@ PrefabInstance:
       propertyPath: balanceBar
       value: 
       objectReference: {fileID: 1170906059}
+    - target: {fileID: 6735279854649459047, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
+      propertyPath: balanceBar
+      value: 
+      objectReference: {fileID: 1170906059}
     - target: {fileID: 7020483177805715360, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_Name
       value: SeaweedPlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020483177805715361, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
+      propertyPath: growth
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7020483177805715362, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_RootOrder
@@ -9515,7 +9535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d35eca83050ebe54babf1ba8de4e5a64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  darknessValue: 40
+  darknessValue: 60
   sliderSpeed: 1
   slider: {fileID: 1170906062}
 --- !u!114 &1170906062
@@ -11554,9 +11574,17 @@ PrefabInstance:
       propertyPath: balanceBar
       value: 
       objectReference: {fileID: 1170906059}
+    - target: {fileID: 6735279854649459047, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
+      propertyPath: balanceBar
+      value: 
+      objectReference: {fileID: 1170906059}
     - target: {fileID: 7020483177805715360, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_Name
       value: SeaweedPlatform (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020483177805715361, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
+      propertyPath: growth
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7020483177805715362, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_RootOrder
@@ -14296,6 +14324,10 @@ PrefabInstance:
       propertyPath: balanceBar
       value: 
       objectReference: {fileID: 1170906059}
+    - target: {fileID: 6735279854649459047, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
+      propertyPath: balanceBar
+      value: 
+      objectReference: {fileID: 1170906059}
     - target: {fileID: 7020483177805715360, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_Name
       value: SeaweedPlatform (4)
@@ -14469,6 +14501,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2117224219}
     m_Modifications:
     - target: {fileID: 3216458749548617372, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
+      propertyPath: balanceBar
+      value: 
+      objectReference: {fileID: 1170906059}
+    - target: {fileID: 6735279854649459047, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: balanceBar
       value: 
       objectReference: {fileID: 1170906059}
@@ -14870,9 +14906,17 @@ PrefabInstance:
       propertyPath: balanceBar
       value: 
       objectReference: {fileID: 1170906059}
+    - target: {fileID: 6735279854649459047, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
+      propertyPath: balanceBar
+      value: 
+      objectReference: {fileID: 1170906059}
     - target: {fileID: 7020483177805715360, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_Name
       value: SeaweedPlatform (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020483177805715361, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
+      propertyPath: growth
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7020483177805715362, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_RootOrder
@@ -17043,6 +17087,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298608659110445849, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
+      propertyPath: acc
+      value: 0.000025
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298608659110445849, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
+      propertyPath: speed
+      value: 0.0005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298608659110445849, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
+      propertyPath: maxSpeed
+      value: 0.005
+      objectReference: {fileID: 0}
     - target: {fileID: 6298608659110445851, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
       propertyPath: m_Name
       value: vineGrowth
@@ -17051,6 +17107,18 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7400301717108683765, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400301717108683765, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8775763136361459184, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
+      propertyPath: balanceBar
+      value: 
+      objectReference: {fileID: 1170906059}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31c1e25b8fec5174a9aaa35bc4b16eaa, type: 3}
 --- !u!1 &2117224218
@@ -17483,6 +17551,10 @@ PrefabInstance:
       propertyPath: balanceBar
       value: 
       objectReference: {fileID: 1170906059}
+    - target: {fileID: 6735279854649459047, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
+      propertyPath: balanceBar
+      value: 
+      objectReference: {fileID: 1170906059}
     - target: {fileID: 7020483177805715360, guid: 0f69a22d7e6f2534c8d6ace4392e8bd6, type: 3}
       propertyPath: m_Name
       value: SeaweedPlatform
@@ -17550,11 +17622,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7183248230263324438, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 176.5
+      value: 303.7
       objectReference: {fileID: 0}
     - target: {fileID: 7183248230263324438, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15
+      value: -125.25
       objectReference: {fileID: 0}
     - target: {fileID: 7183248230263324438, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
       propertyPath: m_LocalPosition.z

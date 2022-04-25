@@ -5042,7 +5042,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   growth: 1
-  speed: 0.00125
+  maxSpeed: 0.005
+  speed: 0.0005
+  acc: 0.000025
   wall: {fileID: 8361844289418281954}
   vine1: {fileID: 6298608659133252405}
   vine2: {fileID: 296098273104031723}

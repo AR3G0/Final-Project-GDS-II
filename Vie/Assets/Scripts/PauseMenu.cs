@@ -59,7 +59,13 @@ public class PauseMenu : MonoBehaviour
 
     public void RestartScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameObject checkPointSystem = GameObject.Find("checkPointSystem");
+
+        // Move the player to the stored checkpoint position.
+        checkPointSystem checkpointscript = checkPointSystem.GetComponent<checkPointSystem>();
+        checkpointscript.resetToLastCheckPoint();
+
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;

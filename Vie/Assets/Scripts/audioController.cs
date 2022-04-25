@@ -48,7 +48,7 @@ public class audioController : MonoBehaviour
         float distance = Vector3.Distance(player.transform.position, transform.position);
         if (distance < triggerRange)
         {
-            if (audioPlayer.isPlaying != true) audioPlayer.Play();
+           // if (audioPlayer.isPlaying != true) audioPlayer.Play();
         }
     }
 

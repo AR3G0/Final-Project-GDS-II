@@ -11,10 +11,15 @@ public class checkPointSystem : MonoBehaviour
     public GameObject player;
     public GameObject cam;
 
+
+
     // the first checkpoint location is the player's starting location
     private void Awake()
     {
-        playerCheckPointLocation = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
+
+        if (playerCheckPointLocation.x == 0)
+            playerCheckPointLocation = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
+
     }
 
 
@@ -22,5 +27,10 @@ public class checkPointSystem : MonoBehaviour
     {
         player.transform.position = playerCheckPointLocation;
         cam.transform.position= playerCheckPointLocation;
+    }
+
+    private void Update()
+    {
+        Debug.Log(playerCheckPointLocation);
     }
 }

@@ -13,6 +13,8 @@ public class nextlevel : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
+            checkPointSystem.playerCheckPointLocation = new Vector3(0f, 0f, 0f);
+
             SceneManager.LoadScene(levelToGoTo, LoadSceneMode.Single);
         }
     }

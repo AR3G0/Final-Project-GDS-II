@@ -15,4 +15,12 @@ public class MainMenu : MonoBehaviour
         Debug.Log("QUIT!");
         Application.Quit();
     }
+    public void Level2()
+    {
+        SceneManager.LoadScene("Forest");
+    }
+    public void Level3()
+    {
+        SceneManager.LoadScene("Climb - Lv 3");
+    }
 }

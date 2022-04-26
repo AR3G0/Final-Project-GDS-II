@@ -1488,6 +1488,7 @@ GameObject:
   - component: {fileID: 206401802}
   - component: {fileID: 206401804}
   - component: {fileID: 206401803}
+  - component: {fileID: 206401805}
   m_Layer: 5
   m_Name: balanceBar
   m_TagString: Untagged
@@ -1585,6 +1586,20 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &206401805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206401801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c5aba952fda024f99de3fb79cf7ac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Intensity: 1.5
+  isShaking: 0
 --- !u!1 &207120110
 GameObject:
   m_ObjectHideFlags: 0

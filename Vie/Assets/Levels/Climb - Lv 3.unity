@@ -2883,7 +2883,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 297021496}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 6c6a84fd429b2f04699c03a6699dbcf8, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -9529,6 +9529,7 @@ GameObject:
   - component: {fileID: 1108452920}
   - component: {fileID: 1108452922}
   - component: {fileID: 1108452921}
+  - component: {fileID: 1108452923}
   m_Layer: 5
   m_Name: balanceBar
   m_TagString: Untagged
@@ -9626,6 +9627,20 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1108452923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108452919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c5aba952fda024f99de3fb79cf7ac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Intensity: 1.5
+  isShaking: 0
 --- !u!1 &1138741543
 GameObject:
   m_ObjectHideFlags: 0

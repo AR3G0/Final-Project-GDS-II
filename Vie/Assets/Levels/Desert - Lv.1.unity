@@ -1627,7 +1627,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219677729}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.9, y: -1, z: -10}
+  m_LocalPosition: {x: -3, y: -1.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3860,6 +3860,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &527539649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7183248230263324439, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
+  m_PrefabInstance: {fileID: 1657194442}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &532336917
 GameObject:
   m_ObjectHideFlags: 0
@@ -6078,7 +6083,7 @@ PrefabInstance:
     - target: {fileID: 3814286548212506198, guid: 261c34bd8c1d59e49bd5d76bce7444a0, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1292680699}
+      objectReference: {fileID: 527539649}
     - target: {fileID: 3814286548212506199, guid: 261c34bd8c1d59e49bd5d76bce7444a0, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -11237,6 +11242,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7183248228785637081, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
   m_PrefabInstance: {fileID: 1657194442}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1292680702 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7183248228785637085, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
+  m_PrefabInstance: {fileID: 1657194442}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292680699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03fb5f3011f99714193ace3635b849b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1293280001
 GameObject:
   m_ObjectHideFlags: 0
@@ -14616,17 +14632,45 @@ PrefabInstance:
       propertyPath: balanceBar
       value: 
       objectReference: {fileID: 1170906059}
+    - target: {fileID: 7183248228785637087, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183248228785637087, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183248228785637087, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1292680702}
+    - target: {fileID: 7183248228785637087, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183248228785637087, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnLanding
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183248228785637087, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: playerMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183248228785637087, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7183248230263324438, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7183248230263324438, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5607376
+      value: -1.5392609
       objectReference: {fileID: 0}
     - target: {fileID: 7183248230263324438, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2
+      value: -2.3
       objectReference: {fileID: 0}
     - target: {fileID: 7183248230263324438, guid: 983376148e6169d44af5ee8cd372dce0, type: 3}
       propertyPath: m_LocalPosition.z

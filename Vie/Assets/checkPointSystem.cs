@@ -16,7 +16,6 @@ public class checkPointSystem : MonoBehaviour
     // the first checkpoint location is the player's starting location
     private void Awake()
     {
-
         if (playerCheckPointLocation.x == 0)
             playerCheckPointLocation = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
 

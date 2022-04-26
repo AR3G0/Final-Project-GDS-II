@@ -15,6 +15,9 @@ public class seaweedPlaformGrowth : MonoBehaviour
     public GameObject seaweed;
     public GameObject platform;
 
+    public AudioClip growSound;
+    public AudioClip witherSound;
+
     //check to see if the player is looking at the object or not
     private bool playerLookingAt = false;
     // init a array of game objects for the vines
@@ -25,12 +28,44 @@ public class seaweedPlaformGrowth : MonoBehaviour
 
     private float counterGrowth = 1f;
 
+    private AudioSource audioPlayer;
+    private GameObject balanceSlider;
+    private Slider balanceValue;
+
+    private void Start()
+    {
+        // get the slider componet so we can check for the balance bar's value
+        balanceSlider = GameObject.Find("balanceBar");
+        balanceValue = balanceSlider.GetComponent<Slider>();
+
+        audioPlayer = GetComponent<AudioSource>();
+    }
+
 
     //while the player is looking at the vines, turn on the flag.
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "lightCone")
         {
+
+            if (!audioPlayer.isPlaying)
+            {
+                //wither sound
+                if (balanceValue.value > 50)
+                {
+                    audioPlayer.clip = witherSound;
+                    audioPlayer.volume = 0;
+                    audioPlayer.Play();
+                }
+                // growing sound
+                else
+                {
+                    audioPlayer.clip = growSound;
+                    audioPlayer.volume = 0;
+                    audioPlayer.Play();
+                }
+            }
+
             playerLookingAt = true;
         }
     }
@@ -51,9 +86,6 @@ public class seaweedPlaformGrowth : MonoBehaviour
         // while the player is looking at the vines, grow or wither them
         if (playerLookingAt == true)
         {
-            // get the slider componet so we can check for the balance bar's value
-            GameObject slider = GameObject.Find("balanceBar");
-            Slider balanceValue = slider.GetComponent<Slider>();
 
             // if there is more dark then light, wither the plants
             if (balanceValue.value >= 50)
@@ -98,6 +130,12 @@ public class seaweedPlaformGrowth : MonoBehaviour
 
             // set the seaweed's scale to whatever the growth value is.
             seaweed.transform.localScale = new Vector3(seaweed.transform.localScale.x, growth, seaweed.transform.localScale.z);
+
+
+            //increase the volume as the player looks at the plant
+            if (audioPlayer.volume < 1) audioPlayer.volume += speed * 16;
+            else audioPlayer.volume = 1;
+
         }
         // if the player is not looking at the object 
         // and if the object needs to be reset
@@ -128,7 +166,19 @@ public class seaweedPlaformGrowth : MonoBehaviour
 
 
             }
+
+            //decrease the volume as the player looks away
+            if (audioPlayer.volume > 0)
+            {
+                audioPlayer.volume -= speed * 16;
+            }
+            else
+            {
+                audioPlayer.volume = 0;
+                audioPlayer.Stop();
+            }
         }
+
 
     }
 }

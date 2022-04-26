@@ -15,7 +15,7 @@ public class blackPipScript : MonoBehaviour
     // get the balance bar so we can modify it
     public GameObject balanceBar;
 
-
+    public GameObject Deathparticles;
 
     private void Awake()
     {
@@ -38,6 +38,9 @@ public class blackPipScript : MonoBehaviour
             var script = balanceBar.GetComponent<balanceBarController>();
 
             script.darknessValue += 10f;
+
+            GameObject newParts = Instantiate(Deathparticles, transform.position, transform.rotation);
+            //newParts.transform.parent = other.transform;
 
             Destroy(gameObject);
         }

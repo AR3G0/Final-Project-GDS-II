@@ -4909,6 +4909,7 @@ MonoBehaviour:
   bobAmplitue: 0.3
   bobFrequency: 1
   balanceBar: {fileID: 0}
+  Deathparticles: {fileID: 5299148228047434999, guid: 216bb7ebb7de2914c955cfe2a904dd99, type: 3}
 --- !u!114 &572821809995836445
 MonoBehaviour:
   m_ObjectHideFlags: 0

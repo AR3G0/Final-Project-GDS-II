@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 630080993951415989}
   - component: {fileID: 8897452828637173344}
   - component: {fileID: 254781868593490768}
+  - component: {fileID: 6687354139957044068}
   m_Layer: 0
   m_Name: 'DarkPickupParts '
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5299148228047434999}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.76, y: -2.76, z: -5.05}
+  m_LocalPosition: {x: -1.76, y: -2.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4821,3 +4822,16 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &6687354139957044068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299148228047434999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edeb48cf453ddb540b2acb1a70a8ea27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 67cb6564213a50b4a82eb6ff6021537d, type: 3}

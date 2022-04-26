@@ -40,7 +40,7 @@ public class whitePipScript : MonoBehaviour
             script.darknessValue -= 10f;
 
             GameObject newParts = Instantiate(Deathparticles, transform.position, transform.rotation);
-            newParts.transform.parent = other.transform;
+           // newParts.transform.parent = other.transform;
 
             Destroy(gameObject);
         }

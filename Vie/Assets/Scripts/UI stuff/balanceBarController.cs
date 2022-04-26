@@ -22,12 +22,12 @@ public class balanceBarController : MonoBehaviour
         if (slider.value < darknessValue)
         {
             slider.value += sliderSpeed;
-            shaker.shake(0.01f);
+            shaker.shake(0.05f);
         }
         else if (slider.value > darknessValue)
         {
             slider.value -= sliderSpeed;
-            shaker.shake(0.01f);
+            shaker.shake(0.05f);
         }
         else if (slider.value == darknessValue)
         {

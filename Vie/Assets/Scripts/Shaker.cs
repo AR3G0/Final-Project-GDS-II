@@ -28,7 +28,7 @@ public class Shaker : MonoBehaviour
         }
     }
 
-    bool isShaking = false;
+    public bool isShaking = false;
 
     void Update()
     {
@@ -36,6 +36,8 @@ public class Shaker : MonoBehaviour
         {
             StartCoroutine(DoShake());
         }
+
+
     }
 
     IEnumerator DoShake()

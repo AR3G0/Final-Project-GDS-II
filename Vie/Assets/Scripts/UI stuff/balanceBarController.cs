@@ -10,17 +10,28 @@ public class balanceBarController : MonoBehaviour
     public float sliderSpeed = 0.125f;
     public Slider slider;
 
+    private Shaker shaker;
 
+    private void Awake()
+    {
+        shaker = GetComponent<Shaker>();
+    }
 
     public void FixedUpdate()
     {
         if (slider.value < darknessValue)
         {
             slider.value += sliderSpeed;
+            shaker.shake(0.01f);
         }
         else if (slider.value > darknessValue)
         {
             slider.value -= sliderSpeed;
+            shaker.shake(0.01f);
+        }
+        else if (slider.value == darknessValue)
+        {
+            shaker.shake(0);
         }
     }
 }

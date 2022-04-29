@@ -73,4 +73,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
+    public void Feedback()
+    {
+        Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSd0z7dp7VvlUY16ki-O9nSUdw8KMLdU7ctC5ixbLfzctU6hvQ/viewform?entry.1508688123=Vie+-+Noah,+Gabe,+Madison,+Nico,+Laramie");
+    }
 }

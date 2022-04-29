@@ -9,7 +9,9 @@ public class seaweedPlaformGrowth : MonoBehaviour
     public float growth = 1f;
     public float maxSpeed;
     public float speed;
-    public float acc; 
+    public float acc;
+
+    public float resetTimer;
 
     // link all the vine objects we will move later
     public GameObject seaweed;

@@ -6,8 +6,8 @@ public class fallingPlatform : MonoBehaviour
 {
     public Shaker shaker;
     public float duration = 1f;
-    public float triggerRange = 25f;
-    public float lifeSpan = 7.5f;
+    public float triggerRange;
+    public float lifeSpan;
 
     private void Awake()
     {
@@ -17,12 +17,12 @@ public class fallingPlatform : MonoBehaviour
 
     public GameObject player;
 
-    void Update()
+    void FixedUpdate()
     {
         float distance = Vector3.Distance(player.transform.position, transform.position);
-        if (distance < triggerRange)
+        if (distance < 25f)
         {
-            if (distance < 2)
+            if (distance < triggerRange)
             {
                 lifeSpan -= 1f;
                 if (lifeSpan < 0) Destroy(gameObject);

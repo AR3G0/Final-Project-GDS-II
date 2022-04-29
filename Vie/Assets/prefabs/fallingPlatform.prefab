@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Intensity: 0.002
+  isShaking: 0
 --- !u!114 &8421164166818604372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,5 +141,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shaker: {fileID: 8421164166818604379}
   duration: 1
-  triggerRange: 25
+  triggerRange: 8
+  lifeSpan: 2
   player: {fileID: 0}

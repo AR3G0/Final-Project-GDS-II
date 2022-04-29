@@ -1,18 +1,54 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class fadeToBlack : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed;
+
+    private Image image;
+
+    private float newAlpah = 0;
+
+    private void Awake()
     {
-        
+        image = GetComponent<Image>();
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void setAlphaTo(float a)
     {
-        
+        newAlpah = a;
+        image.color = new Color(image.color.r, image.color.g, image.color.b, a);
+    }
+
+    public void fadeBlackIn() 
+    {
+        if (image.color.a < 1)
+        {
+            
+            image.color = new Color(image.color.r, image.color.g, image.color.b, newAlpah);
+            newAlpah = newAlpah + speed;
+
+        }
+        else
+        {
+            image.color = new Color(image.color.r, image.color.g, image.color.b, 1);
+        }
+    }
+
+    public void fadeBlackOut()
+    {
+        if (image.color.a > 0)
+        {
+
+            image.color = new Color(image.color.r, image.color.g, image.color.b, newAlpah);
+            newAlpah = newAlpah - speed;
+        }
+        else
+        {
+            image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
+        }
     }
 }
